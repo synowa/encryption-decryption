@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Encryption-Decryption.iml" filepath="$PROJECT_DIR$/.idea/modules/Encryption-Decryption.iml" group="Encryption-Decryption" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Encryption-Decryption/task/Encryption-Decryption-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Encryption-Decryption/task/Encryption-Decryption-task.iml" group="Encryption-Decryption/Encryption-Decryption-task" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Encryption-Decryption/task/Encryption-Decryption-task_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Encryption-Decryption/task/Encryption-Decryption-task_main.iml" group="Encryption-Decryption/Encryption-Decryption-task" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Encryption-Decryption/task/Encryption-Decryption-task_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Encryption-Decryption/task/Encryption-Decryption-task_test.iml" group="Encryption-Decryption/Encryption-Decryption-task" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Queens/Problems-Queens.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Queens/Problems-Queens.iml" group="Encryption-Decryption/Problems-Queens" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Queens/Problems-Queens_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Queens/Problems-Queens_main.iml" group="Encryption-Decryption/Problems-Queens" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Queens/Problems-Queens_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Queens/Problems-Queens_test.iml" group="Encryption-Decryption/Problems-Queens" />

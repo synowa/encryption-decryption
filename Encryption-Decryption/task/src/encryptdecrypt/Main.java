@@ -1,8 +1,24 @@
 package encryptdecrypt;
 
+import java.util.Scanner;
+
 public class Main {
-//    "we found a treasure!" A, B, C, D, E|, F, G, H, I, J|, K, L, M|| N, O, P, |Q, R, S, T, U, |V, W, X, Y, Z.
+
     public static void main(String[] args) {
-        System.out.println("dv ulfmw z givzhfiv!");
+        Scanner scanner = new Scanner(System.in);
+        String message = scanner.nextLine();
+        int key = scanner.nextInt();
+
+        char[] charsFromMessage = message.toCharArray();
+        for (char c : charsFromMessage) {
+            if (c >= 'a' && c <= 'z') {
+                if (c + key <= 122) {
+                    c = (char) (c + key);
+                } else {
+                    c = (char) (c + key - 26);
+                }
+            }
+            System.out.print(c);
+        }
     }
 }

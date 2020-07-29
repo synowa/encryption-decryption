@@ -14,7 +14,8 @@ class Main {
 
         System.out.format("%s/%s/%s", month, day, year);
 //        String[] parts = date.split("-");
-//        System.out.format("%s/%s/%s", parts[1], parts[2], parts[0]); //splitowanie na podanym Stringu
+//        System.out.format("%s/%s/%s", parts[1], parts[2], parts[0]);
+// splitowanie na podanym Stringu (pomija jego zawartość)
 
     }
 }

@@ -67,6 +67,12 @@ topics:
     theory_id: 3507
   - title: Processing strings
     theory_id: 3551
+  - title: IntelliJ IDEA
+    theory_id: 3801
+  - title: IDEA Basics
+    theory_id: 5819
+  - title: EduTools
+    theory_id: 5839
   2:
   - title: Units of information
     theory_id: 6865
@@ -97,3 +103,71 @@ topics:
     theory_id: 3746
   - title: Command-line arguments
     theory_id: 3566
+  4:
+  - title: Introduction to OOP
+    theory_id: 3614
+  - title: What is an exception
+    theory_id: 3497
+  - title: Hierarchy of exceptions
+    theory_id: 3570
+  - title: Exception handling
+    theory_id: 3552
+  - title: Files
+    theory_id: 3635
+  - title: Reading files
+    theory_id: 3636
+  - title: Writing files
+    theory_id: 3652
+  - title: Errors in programs
+    theory_id: 3536
+  - title: Defining classes
+    theory_id: 3618
+  - title: Package
+    theory_id: 3621
+  - title: Constructor
+    theory_id: 3535
+  - title: Objects
+    theory_id: 4727
+  - title: Instance methods
+    theory_id: 3495
+  - title: Access modifiers
+    theory_id: 3589
+  - title: Getters and setters
+    theory_id: 3599
+  - title: Inheritance
+    theory_id: 3583
+  5:
+  - title: The concept of patterns
+    theory_id: 3611
+  - title: Strategy
+    theory_id: 3556
+  - title: Encapsulating object creation
+    theory_id: 3577
+  - title: Factory method
+    theory_id: 5761
+  - title: Template method
+    theory_id: 5155
+  - title: Final variables
+    theory_id: 7427
+  - title: Overloading
+    theory_id: 3525
+  - title: Static members
+    theory_id: 3534
+  - title: Multiple constructors
+    theory_id: 3538
+  - title: The keyword super
+    theory_id: 3588
+  - title: Hiding and overriding
+    theory_id: 3572
+  - title: Protected modifier
+    theory_id: 6692
+  - title: Referencing subclass objects
+    theory_id: 3585
+  - title: Polymorphism
+    theory_id: 3587
+  - title: Abstract class
+    theory_id: 3597
+  - title: Interface
+    theory_id: 3615
+  - title: Abstract class vs interface
+    theory_id: 3563

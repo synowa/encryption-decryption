@@ -1,0 +1,1 @@
+/Users/aleksandrapawlak/IdeaProjects/Encryption-Decryption/Problems/Move the first N characters/build/classes/java/main/Main.class

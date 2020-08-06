@@ -1,0 +1,1 @@
+/Users/aleksandrapawlak/IdeaProjects/Encryption-Decryption/Problems/Get first and last elements/build/classes/java/main/Main.class

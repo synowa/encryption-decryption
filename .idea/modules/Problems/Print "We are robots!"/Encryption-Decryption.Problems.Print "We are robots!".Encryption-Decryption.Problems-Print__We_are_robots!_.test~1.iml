@@ -38,7 +38,7 @@
     <content url="file://$MODULE_DIR$/../../../../Problems/Print &quot;We are robots!&quot;/test" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="Encryption-Decryption.Problems.Print &quot;We are robots!&quot;.Encryption-Decryption.Problems-Print__We_are_robots!_.main" />
+    <orderEntry type="module" module-name="Encryption-Decryption.Problems.Print &quot;We are robots!&quot;.Encryption-Decryption.Problems-Print__We_are_robots!_.main~1" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.21" level="project" />
     <orderEntry type="library" name="Gradle: com.github.hyperskill:hs-test:v7.0.1" level="project" />
     <orderEntry type="library" name="Gradle: com.github.stefanbirkner:system-rules:1.19.0" level="project" />

@@ -1,26 +1,28 @@
 package encryptdecrypt;
 
-import java.util.Scanner;
-
 public class Main {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String targetOperation = scanner.nextLine();
-        String message = scanner.nextLine();
-        int key = scanner.nextInt();
+        String mode = "enc";
+        String data = "";
+        int key = 0;
+        for (int i = 0; i < args.length - 1; i++) {
+            if ("-mode".equals(args[i])) {
+                mode = args[i + 1];
+            } else if ("-key".equals(args[i])) {
+                key = Integer.parseInt(args[i + 1]);
+            } else if ("-data".equals(args[i])) {
+                data = args[i + 1];
+            }
+        }
 
-        char[] charsFromMessage = message.toCharArray();
-        if ("enc".equals(targetOperation)) {
+        char[] charsFromMessage = data.toCharArray();
+        if ("enc".equals(mode)) {
             for (char c : charsFromMessage) {
-//                if (c + key <= 122) {
-                    c = (char) (c + key);
-//                } else {
-//                    c = (char) (c + key - 26);
-//                }
+                c = (char) (c + key);
                 System.out.print(c);
             }
-        } else if ("dec".equals(targetOperation)) {
+        } else if ("dec".equals(mode)) {
             for (char c : charsFromMessage) {
                 if (c - key <= 122) {
                     c = (char) (c - key);
